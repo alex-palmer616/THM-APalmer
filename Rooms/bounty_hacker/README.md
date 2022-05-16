@@ -68,7 +68,7 @@ For the username in this case, I originally made a .txt file with all of the nam
 
 Running the command `hydra -l *** -P /root/locks.txt ssh://$ip` gave me the following result that is also the answer to Question 4, What Is the users Password?
 
-![hydra](images/hydra.png)
+![hydra](images/hydra1.png)
 
 Now that we have a user and password we can get into the machine!
 
