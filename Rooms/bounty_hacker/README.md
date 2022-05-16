@@ -32,6 +32,8 @@ There is no answer needed for question 2, so we can continue.
 
 The next question, is who wrote the task list. We know from `nmap` that anonymous FTP is allowed, but before we give that a chance, I wanted to make sure that there wasn't anything else out in the 'open' that would be useful. Opening `$ip` in a browser gives us a web page with an image, and some flavor text for a bit of story. 
 
+### gobuster
+
 At first I ran a `gobuster` command using `gobuster dir -u $ip -w /usr/share/wordlists/dirb/common.txt` and got the following results:
 
 ![gobuster](images/gobuster.png)
@@ -86,6 +88,8 @@ The last thing that we need to complete this machine, is to find the contents of
 
 The first thing that I did was to see if there were any commands that this user can use `sudo` on. For this I used `sudo -l` and we get the following result:
 ![sudo](images/sudo.png)
+
+### GTFObins
 
 We can use `tar` utilizing `sudo` privilage. We now need to see if there is a way to exploit that to our advantage. 
 The site 'GTFObins' is an extensive database of different ways you can escalate your privilage, and is the first place that I will look. Upon visiting ![tar | GTFOBins](https://gtfobins.github.io/gtfobins/tar/) it looks like we can use a command with `sudo` and `tar` that will make our `sudo` privilage carry over to other commands. 
