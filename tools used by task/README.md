@@ -26,7 +26,7 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## gobuster
 
-[Bounty Hacker](rooms/bounty_hacker/###-gobuster)
+[Bounty Hacker](Rooms/bounty_hacker/#-gobuster)
 
 ## GTFObins
 
