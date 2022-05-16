@@ -8,7 +8,7 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## Quick Jump
 
-[A](#-a) [B](#-b) [C](#-c) [D](#-d) [E](#-e) [F](#-f) [G](#-g) [H](#-h) [I](#-i) [J](#-j) [K](#-k) [L](#-l) [M](#-m) [N](#-n) [O](#-o) [P](#-p) [Q](#-q) [R](#-r) [S](#-s) [T](#-t) [U](#-u) [V](#-v) [W](#-w) [X](#-x) [Y](#-y) [Z](#-z) 
+[A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z) 
 
 # A
 
@@ -26,7 +26,7 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## gobuster
 
-[Bounty Hacker](rooms/bounty_hacker/README.md/###-gobuster)
+[Bounty Hacker](rooms/bounty_hacker/###-gobuster)
 
 ## GTFObins
 
