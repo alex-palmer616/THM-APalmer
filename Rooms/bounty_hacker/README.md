@@ -13,7 +13,7 @@ After the machine has started, we need to scan for open ports on the target mach
 ### nmap
 
 The scan that I ran to find the open ports was `nmap -sV -sC $ip`. From that we gather the following results:
-![nmap](/images/nmap.png)
+![nmap](images/nmap.png)
 The open ports are:
 - 21 (FTP)
 - 22 (SSH)
