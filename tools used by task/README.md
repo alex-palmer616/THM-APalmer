@@ -26,17 +26,17 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## gobuster
 
-[Bounty Hacker](Rooms/bounty_hacker/#-gobuster)
+[Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#gobuster)
 
 ## GTFObins
 
-[Bounty Hacker](rooms/bounty_hacker/README.md/###-gtfobins)
+[Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#gtfobins)
 
 # H
 
 ## hydra
 
-[Bounty Hacker](rooms/bounty_hacker/README.md/###-hydra)
+[Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#hydra)
 
 # I
 
@@ -54,7 +54,7 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## nmap
 
-[Bounty Hacker](rooms/bounty_hacker/README.md/###-nmap)
+[Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#nmap)
 
 # O
 
