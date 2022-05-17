@@ -17,4 +17,3 @@ This is my personal project and repository of writeups authored by me as I compl
 - [GTFObins](https://gtfobins.github.io/)
 
 Excelent resource for possible exploits to escalate privlege.
-
