@@ -1,6 +1,6 @@
 ﻿# THM-APalmer
 
-This is my personal repository of writeups authored by me as I complete various rooms on THM (TryHackMe.com). This will serve as both an instructional guide, and reference for the methodology, thought process, and tools used (Both successfully, and unsuccessfully).
+This is my personal project and repository of writeups authored by me as I complete various rooms on THM (TryHackMe.com). This will serve as both an instructional guide, and reference for the methodology, thought process, and tools used (Both successfully, and unsuccessfully).
 
 # Quick Links
 
