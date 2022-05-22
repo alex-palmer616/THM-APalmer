@@ -20,11 +20,17 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 # E
 
+## enum4linux
+
+[Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#enum4linux)
+
 # F
 
 # G
 
 ## gobuster
+
+[Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#gobuster)
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#gobuster)
 
@@ -36,11 +42,17 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## hydra
 
+[Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#hydra)
+
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#hydra)
 
 # I
 
 # J
+
+## john
+
+[Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#john)
 
 # K
 
@@ -48,11 +60,17 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 # L
 
+## [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
+
+[Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#linpeas)
+
 # M
 
 # N
 
 ## nmap
+
+[Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#nmap)
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#nmap)
 
@@ -65,6 +83,14 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 # R
 
 # S
+
+## scp
+
+[Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#scp)
+
+## ssh2john
+
+[Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#ssh2john)
 
 # T
 

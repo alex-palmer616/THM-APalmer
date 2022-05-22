@@ -6,6 +6,8 @@ This is my personal project and repository of writeups authored by me as I compl
 
 ## Rooms/Writeups
 
+[Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#basic-pentesting)
+
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker)
 
 ##  Reference Pages
