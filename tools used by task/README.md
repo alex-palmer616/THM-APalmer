@@ -14,7 +14,15 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 # B
 
+## binwalk
+
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#binwalk)
+
 # C
+
+## [CyberChef](https://gchq.github.io/CyberChef/)
+
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#cyberchef)
 
 # D
 
@@ -30,6 +38,8 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## gobuster
 
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#gobuster)
+
 [Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#gobuster)
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#gobuster)
@@ -42,6 +52,8 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## hydra
 
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#hydra)
+
 [Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#hydra)
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#hydra)
@@ -51,6 +63,8 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 # J
 
 ## john
+
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#john)
 
 [Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#john)
 
@@ -70,6 +84,8 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## nmap
 
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#nmap)
+
 [Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#nmap)
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#nmap)
@@ -86,15 +102,25 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## scp
 
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#scp)
+
 [Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#scp)
 
 ## ssh2john
 
 [Basic Pentesting](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/basic_pentesting#ssh2john)
 
+## steghide
+
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#steghide)
+
 # T
 
 # U
+
+## User-Agent
+
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#user-agent)
 
 # V
 
@@ -105,3 +131,7 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 # Y
 
 # Z
+
+## zip2john
+
+[Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#zip2john)

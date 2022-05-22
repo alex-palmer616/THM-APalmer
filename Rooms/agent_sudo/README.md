@@ -47,13 +47,13 @@ The text that we see when visiting `$ip` implies that we need to change our user
 
 ![agentc](images/agentc.png)
 
-The answer to Question 2.2 is ****-*****
+The answer to Question 2.2 is `****-*****`
 
 ### Question 2.3: What is the agent's name?
 
-Upon switching our user-agent to **C** the page refers to us as **Chris**
+Upon switching our user-agent to **C** the page refers to us as `C****`
 
-The answer to Question 2.3 is *****
+The answer to Question 2.3 is `C****`
 
 ## Task 3: Hash cracking and brute-force.
 
@@ -147,7 +147,7 @@ We can do that by running `ssh *****@$ip` and entering the password we discovere
 
 Running an `ls` command once connected reveals the `user_flag.txt` is that directory along with a photo:
 
-![ssh](image/ssh.png)
+![ssh](images/ssh.png)
 
 Viewing the `user_flag.txt` using `cat user_flag.txt` shows us:
 
@@ -161,7 +161,7 @@ This one feels a bit out of place, but it gives us some practice with the `scp` 
 
 #### scp
 
-We first need to copy the picture to our machine. We can do that by entering this command in either a seperate terminal, or this terminal after you disconnect from ssh. `scp *****@$ip:/home/\*****/Alien_autospy.jpg {destination}`
+We first need to copy the picture to our machine. We can do that by entering this command in either a seperate terminal, or this terminal after you disconnect from ssh. `scp *****@$ip:/home/*****/Alien_autospy.jpg {destination}`
 
 ![scp](images/scp.png)
 
