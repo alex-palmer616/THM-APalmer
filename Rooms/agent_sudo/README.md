@@ -79,7 +79,7 @@ Now that we have the password for the FTP server, we can log into the server and
 
 ![FTP](images/ftp.png)
 
-We need to download those to our machine using `get To_agentJ.txt``get cute-alien.jpg` and `get cutie.png`
+We need to download those to our machine using `get To_agentJ.txt` `get cute-alien.jpg` and `get cutie.png`
 
 Once we have those on our machine, we can start to by reading `To_agentJ.txt` to see the contents:
 
