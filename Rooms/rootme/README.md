@@ -64,17 +64,19 @@ The answer is `/pa***/`
 
 The next thing that we need to do is to visit that directory ina browser. Open one up, and enter `$ip/pa***/` Upon doing so, we can see the following:
 
-![pa](pa.png)
+![pa](images/pa.png)
 
 We can upload something. But we need to figure out what, and where we can go to access it when we do.
 
 If we go back to our `gobuster` scan, we can see that there is a directory that was found called `/uploads`. Visiting this shows us a empty directory. 
 
-![uploads](uploads.png)
+![uploads](images/uploads.png)
 
 I bet once we find out what to upload, it will show up here!
 
 ## 3.1 Find a form to upload and get a reverse shell, and find the flag. 
+
+### PHP reverse shell (via pentestmonkey.net)
 
 Since we know that we need to upload a reverse shell, we can go and find one that we can utilize for this purpose. [pentestmonkey](https://pentestmonkey.net) has a very useful PHP reverse shell that we might be able to utilize [here](https://pentestmonkey.net/tools/web-shells/php-reverse-shell)
 
@@ -112,11 +114,11 @@ Using the command `mv php-reverse-shell.php php-reverse-shell.phtml` will change
 
 With the `.phtml` file selected, we can go ahead and click on `upload`
 
-![phtml](phtml.png)
+![phtml](images/phtml.png)
 
 And Success!
 
-![phtml is a go](success.png)
+![phtml is a go](images/success.png)
 
 We can now confirm that the file is uploaded, by visiting `$ip/uploads` in our browser.
 

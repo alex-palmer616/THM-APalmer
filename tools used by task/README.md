@@ -44,9 +44,13 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#gobuster)
 
+[RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#gobuster)
+
 ## GTFObins
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#gtfobins)
+
+[RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#gtfobins)
 
 # H
 
@@ -82,6 +86,10 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 # N
 
+## netcat
+
+[RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#netcat)
+
 ## nmap
 
 [Agent Sudo](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/agent_sudo#nmap)
@@ -90,9 +98,15 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#nmap)
 
+[RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#nmap)
+
 # O
 
 # P
+
+## [pentestmonkey.net](https://pentestmonkey.net)
+
+[RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#)
 
 # Q
 
