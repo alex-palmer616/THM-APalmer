@@ -106,7 +106,7 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 ## [pentestmonkey.net](https://pentestmonkey.net)
 
-[RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#)
+[RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#php-reverse-shell-via-pentestmonkeynet)
 
 # Q
 
