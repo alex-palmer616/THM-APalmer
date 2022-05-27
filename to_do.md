@@ -1,7 +1,7 @@
 # Guides to catch up on
 
 - PickleRick
-- - some images captured, no readme (that I can find)
+- - some images captured, ~~no readme (that I can find)~~ Readme appears to be in a .txt document, needs reformatting to .md to stay consistant.
 - ~~agent sudo~~
 - - ~~need to add links in tools page.~~
 - ~~bounty hunter~~
