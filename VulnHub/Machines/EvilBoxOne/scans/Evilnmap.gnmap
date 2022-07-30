@@ -1,0 +1,5 @@
+# Nmap 7.92 scan initiated Thu Jul  7 15:17:16 2022 as: nmap -sC -sC -p- -vv -oA /home/kali/Desktop/THM/THM-APalmer/VulnHub/Machines/EvilBoxOne/scans/Evilnmap 192.168.1.21
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 192.168.1.21 ()	Status: Up
+Host: 192.168.1.21 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (65533)
+# Nmap done at Thu Jul  7 15:17:17 2022 -- 1 IP address (1 host up) scanned in 1.68 seconds
