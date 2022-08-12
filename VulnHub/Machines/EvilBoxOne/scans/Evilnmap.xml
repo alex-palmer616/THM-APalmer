@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.92 scan initiated Thu Jul  7 15:17:16 2022 as: nmap -sC -sC -p- -vv -oA /home/kali/Desktop/THM/THM-APalmer/VulnHub/Machines/EvilBoxOne/scans/Evilnmap 192.168.1.21 -->
+<nmaprun scanner="nmap" args="nmap -sC -sC -p- -vv -oA /home/kali/Desktop/THM/THM-APalmer/VulnHub/Machines/EvilBoxOne/scans/Evilnmap 192.168.1.21" start="1657221436" startstr="Thu Jul  7 15:17:16 2022" version="7.92" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1657221436"/>
+<taskend task="NSE" time="1657221436"/>
+<taskbegin task="NSE" time="1657221436"/>
+<taskend task="NSE" time="1657221436"/>
+<taskbegin task="ARP Ping Scan" time="1657221436"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.21" addrtype="ipv4"/>
+<address addr="08:00:27:2D:ED:FE" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="ARP Ping Scan" time="1657221436" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1657221436"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1657221436"/>
+<taskbegin task="SYN Stealth Scan" time="1657221436"/>
+<taskend task="SYN Stealth Scan" time="1657221437" extrainfo="65535 total ports"/>
+<taskbegin task="NSE" time="1657221437"/>
+<taskend task="NSE" time="1657221437"/>
+<taskbegin task="NSE" time="1657221437"/>
+<taskend task="NSE" time="1657221437"/>
+<host starttime="1657221436" endtime="1657221437"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.21" addrtype="ipv4"/>
+<address addr="08:00:27:2D:ED:FE" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65533">
+<extrareasons reason="reset" count="65533" proto="tcp" ports="1-21,23-79,81-65535"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/><script id="ssh-hostkey" output="&#xa;  2048 44:95:50:0b:e4:73:a1:85:11:ca:10:ec:1c:cb:d4:26 (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDsg5B3Ae75r4szTNFqG247Ea8vKjxulITlFGE9YEK4KLJA86TskXQn9E24yX4cYMoF0WDn7JD782HfHCrV74r8nU2kVTw5Y8ZRyBEqDwk6vmOzMvq1Kzrcj+i4f17saErC9YVgx5/33e7UkLXt3MYVjVPIekf/sxWxS4b6N0+J1xiISNcoL/kmG3L7McJzX6Qx6cWtauJf3HOxNtZJ94WetHArSpUyIsn83P+Quxa/uaUgGPx4EkHL7Qx3AVIBbKA7uDet/pZUchcPq/4gv25DKJH4XIty+5/yNQo1EMd6Ra5A9SmnhWjSxdFqTGHpdKnyYHr4VeZ7cpvpQnoiV4y9&#xa;  256 27:db:6a:c7:3a:9c:5a:0e:47:ba:8d:81:eb:d6:d6:3c (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJdleEd7RFnYXv0fbc4pC3l/OWWVAe8GNgoY3hK3C5tlUCvQF+LUFKqe5esCmzIkA8pvpNwEqxC8I2E5XjUtIBo=&#xa;  256 e3:07:56:a9:25:63:d4:ce:39:01:c1:9a:d9:fe:de:64 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICqX8NlpHPg67roxI6Xi8VzNZqC5Uj9KHdAnOcD6/q5/"><table>
+<elem key="fingerprint">4495500be473a18511ca10ec1ccbd426</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDsg5B3Ae75r4szTNFqG247Ea8vKjxulITlFGE9YEK4KLJA86TskXQn9E24yX4cYMoF0WDn7JD782HfHCrV74r8nU2kVTw5Y8ZRyBEqDwk6vmOzMvq1Kzrcj+i4f17saErC9YVgx5/33e7UkLXt3MYVjVPIekf/sxWxS4b6N0+J1xiISNcoL/kmG3L7McJzX6Qx6cWtauJf3HOxNtZJ94WetHArSpUyIsn83P+Quxa/uaUgGPx4EkHL7Qx3AVIBbKA7uDet/pZUchcPq/4gv25DKJH4XIty+5/yNQo1EMd6Ra5A9SmnhWjSxdFqTGHpdKnyYHr4VeZ7cpvpQnoiV4y9</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+</table>
+<table>
+<elem key="fingerprint">27db6ac73a9c5a0e47ba8d81ebd6d63c</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJdleEd7RFnYXv0fbc4pC3l/OWWVAe8GNgoY3hK3C5tlUCvQF+LUFKqe5esCmzIkA8pvpNwEqxC8I2E5XjUtIBo=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="fingerprint">e30756a92563d4ce3901c19ad9fede64</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAICqX8NlpHPg67roxI6Xi8VzNZqC5Uj9KHdAnOcD6/q5/</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/><script id="http-methods" output="&#xa;  Supported Methods: HEAD GET POST OPTIONS"><table key="Supported Methods">
+<elem>HEAD</elem>
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-title" output="Apache2 Debian Default Page: It works"><elem key="title">Apache2 Debian Default Page: It works</elem>
+</script></port>
+</ports>
+<times srtt="111" rttvar="27" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1657221437"/>
+<taskend task="NSE" time="1657221437"/>
+<taskbegin task="NSE" time="1657221437"/>
+<taskend task="NSE" time="1657221437"/>
+<runstats><finished time="1657221437" timestr="Thu Jul  7 15:17:17 2022" summary="Nmap done at Thu Jul  7 15:17:17 2022; 1 IP address (1 host up) scanned in 1.68 seconds" elapsed="1.68" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
