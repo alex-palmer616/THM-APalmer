@@ -12,6 +12,8 @@ This is my personal project and repository of writeups authored by me as I compl
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker)
 
+[Simple CTF](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/simple_ctf)
+
 [RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#rootme)
 
 ##  Reference Pages
