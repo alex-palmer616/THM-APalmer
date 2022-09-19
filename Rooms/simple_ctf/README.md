@@ -38,7 +38,7 @@ While this one didn't seem apparent at first, there is a single line in the `nma
 
 Before we attempt to connect to the FTP server anonymously, I wanted to vist the address of the target machine. So I went and entered `$ip` into a web browser. When we do this, we get the following 'default' page:
 
-![home](images/home.png)
+![home](images/homepage.png)
 
 That didn't really give us THAT much to work with, so the last thing that I wanted to do before connecting to the FTP server was to run a `gobuster` scan against the target `$ip`
 
@@ -94,26 +94,78 @@ Now, we get to use the exploit! Upon visiting the exploit-db.com page for the CV
 
 `-u` followed by the url of the target. In our case `-u $ip`
 `-c` to specify that we are going to be cracking the login, and
-`-w` to specify a wordlist. For this one, I plan on using seclists/common
+`-w` to specify a wordlist. For this one, I plan on using seclists/common.
+
+Upon running it, I ran into some issues with this script. `46635.py` is a python2 script, and requires some extra tinkering to get it to run with python2. You will need to install the `termcolor` module, and it can get tricky if you have python2 and python3 installed. 
+
+First run `pip install termcolor`. When I did that I got the following result:
+
+![termcolor1](images/termcolor1.png)
+
+I did some further digging, and found that all I needed to do was copy `termcolor.py` file into the python2 directory. 
+
+You can do that with `sudo cp /usr/lib/python3/dist-packages/termcolor.py /usr/lib/python2.7`
+
+Once that's complete and we run `python2 46635.py` we will see the following:
+
+![exploitopt](images/exploitopt.png)
+
+Now we just have to fill in the values and run it. I used
+
+`python2 exploit.py -u $IP/simple -c -w /usr/share/seclists/Passwords/CommonCredentials/best-1050.txt`
+
+Once that has completed, we will see the following:
+
+![exploited](images/exploited.png)
 
 ## Question 6: Where can you login with the deatails obtained?
 
+If we look back at the `nmap` results, we can see that `s*\*` was running on port `2222`, and if we use the password we found after running the following command, we can see that we can in fact log in!
+
+`ssh mitch@$ip -p 2222`
+
+The answer to 6 is ***
+
 ## Question 7: What's the user flag?
+
+Upon connecting, if we run an `ls` we can see that the directory contains `user.txt`. View it with `cat user.txt` and we get the answer for question 7.
+
+![user](images/user.png)
 
 ## Question 8: Is there any other user in the home directory? What's its name?
 
+If we run `cd ..` followed by `ls` we can see the other user in the home directory.
+
+![home](images/home.png)
+
 ## Question 9: What can you leverage to spawn a privileged shell?
+
+If we run `sudo -l` and enter the password, we can see that we can use sudo with `vim`
+
+Taking a look at [GTFObins](https://gtfobins.github.io) and searching for `vim` shows us a few ways that we can utilize this to our advantage. 
+
+Jumping down to the `sudo` section, we can see the following:
+
+![vim](images/vim.png)
+
+If we go back to our ssh connection, we can run `sudo vim -c ':!/bin/sh'` and we should be able to run `whoami` to see that we are now `root`
+
+![sudovim](images/sudovim.png)
+
+![whoami](images/whoami.png)
 
 ## Question 10: What's the root flag?
 
-But before we get ahead of ourselves, we should try connecting to the FTP server using `ftp $ip` and entering `anonymous` when asked to input a name.
+Now that we have escalated to `root`, we can navigate to `/root` with `cd /root` and see the contents of `root.txt` with `cat root.txt`
 
-Upon connection we are put into the `/` directory. Running a `ls` command, shows us that there is anoter directory `pub`. After navigating to the `pub` directory, and running another `ls` we can see that there is a .txt document `ForMitch.txt`
+![roottxt](images/roottxt.png)
 
-We can copy it to our machine using `get ForMitch.txt` and by default, it will be sent to our `/root` directory. 
+With that, we have the answer to all of the questions, and completed the room!
 
-Viewing it with `cat ForMitch.txt` shows us this:
+#### Conclusion
 
-![ForMitch](images/formitch.png)
+Thank you for taking the time to read this write-up/walkthrough for this room. I hope it helped you with your completion.
 
-So it looks like we have a potential username `mitch`
+Check out my other write-ups at [https://github.com/Alex-Palmer616/THM-APalmer/readme.md](https://github.com/Alex-Palmer616/THM-APalmer/readme.md)
+
+

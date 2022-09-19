@@ -1,0 +1,7 @@
+/.hta                 (Status: 403) [Size: 290]
+/.htaccess            (Status: 403) [Size: 295]
+/.htpasswd            (Status: 403) [Size: 295]
+/assets               (Status: 301) [Size: 311] [--> http://10.10.30.98/assets/]
+/index.html           (Status: 200) [Size: 1062]
+/robots.txt           (Status: 200) [Size: 17]
+/server-status        (Status: 403) [Size: 299]
