@@ -12,7 +12,7 @@ This is my personal project and repository of writeups authored by me as I compl
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker)
 
-[OhSINT](https:github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/OhSINT
+[OhSINT](https:github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/OhSINT)
 
 [RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#rootme)
 
