@@ -187,4 +187,4 @@ View it with `cat root.txt` and we have the final flag!
 
 Thank you very much for taking the time to view this write-up/walkthrough, and I hope you found it helpful!
 
-AP616.
+
