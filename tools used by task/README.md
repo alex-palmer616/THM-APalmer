@@ -46,11 +46,15 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 
 [RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#gobuster)
 
+[Wgel CTF](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/Wgel_CTF#gobuster)
+
 ## GTFObins
 
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#gtfobins)
 
 [RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#gtfobins)
+
+[Wgel CTF](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/Wgel_CTF#gtfobins)
 
 # H
 
@@ -99,6 +103,8 @@ Now that that's out of the way, here's a cool list, with some fancy clicky thing
 [Bounty Hacker](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/bounty_hacker#nmap)
 
 [RootMe](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/rootme#nmap)
+
+[Wgel CTF](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/Wgel_CTF#nmap)
 
 # O
 
