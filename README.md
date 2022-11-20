@@ -18,6 +18,8 @@ This is my personal project and repository of writeups authored by me as I compl
 
 [Simple CTF](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/simple_ctf)
 
+[Wgel CTF](/Rooms/Wgel_CTF)
+
 ##  Reference Pages
 
 [List of tools used with links to examples](https://github.com/alex-palmer616/THM-APalmer/blob/main/tools%20used%20by%20task/README.md)
