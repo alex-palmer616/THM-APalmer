@@ -194,5 +194,5 @@ On this page we can see both the name of our adversary that attacked Santa's net
 
 ### Conclusion
 
-While this one wasn't overly technical, it did contain a lot of useful information that is important to be aware of. Hopefully you were able to find this little guide helpful, and be sure to check out my gudes for the other day's challenges. [Day 2 can be found here.]()
+While this one wasn't overly technical, it did contain a lot of useful information that is important to be aware of. Hopefully you were able to find this little guide helpful, and be sure to check out my gudes for the other day's challenge [here.](https://github.com/alex-palmer616/THM-APalmer/tree/main/Rooms/advent-of-cyber-2022)
 
