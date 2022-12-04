@@ -4,9 +4,9 @@
 
 ## Introduction. 
 
-The challenge for the first day introduces and gives high-level overviews of various security frameworks. 
+The challenge for the first day introduces and gives high level overviews of various security frameworks. 
 
-While the challenge itself isn't overly "techninal", it allows you to review what you learn in reading about each framework.
+While the challenge itself isn't overly "technical", it allows you to review what you learn in reading about each framework.
 
 Story wise, we need to solve the puzzles that we left by our adversaries who are trying to stop Christmas this year. Each puzzle is a phase of the `Unified Kill Chain`, and solving the puzzles will reveal who is trying to stop Christmas. 
 
@@ -68,7 +68,7 @@ This phase focuses on the threats, techniques and procedures (TTPs) attackes uti
 
 8. Communication with the compromised goes through me. 
 
-With each of the peices being:
+With each of the pieces being:
 
 - Command and Control (C2)
 
@@ -117,7 +117,7 @@ Much like the first puzzle, the second has 6 pieces with 6 clues. The clues are 
 6. Side to side, machine to machine, we hop.
 
 
-With each of the peices being the following
+With each of the pieces being the following
 
 - Credential Access
 
@@ -162,7 +162,7 @@ The five clues are:
 5. Goals set, goals attained. I win!
 
 
-With the five peices being the following. 
+With the five pieces being the following. 
 
 - Impact
 
